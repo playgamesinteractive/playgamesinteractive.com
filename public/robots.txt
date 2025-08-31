@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /treasure/*
+
+# Host
+Host: https://playgamesinteractive.com
+
+# Sitemaps
+Sitemap: https://playgamesinteractive.com/sitemap.xml
