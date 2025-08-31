@@ -1,31 +1,29 @@
 import { NextSeoProps } from 'next-seo';
 
-export default {
-  title: 'Gympal – Your Fitness Partner',
+const SEO: NextSeoProps = {
+  title: 'Play Games Interactive',
   description:
-    //     'Join Gympal, the comprehensive app for tracking nutrition and exercises, connecting with friends and achieve your fitness goals together.',
-    // 'An all-in-one app designed to track your diet, workout sessions and bodyweight.',
-    'Experience the best of fitness tracking with Gympal. Monitor your nutrition and exercises, connect with friends, and stay motivated by becoming gympals.',
-  //   description:
-  //     'Gympal helps you track your nutrition and exercises effortlessly. Monitor your diet, workouts, and progress to stay on track with your fitness goals.',
+    'Play Games Interactive builds secure, scalable technology for online platforms and digital communities—empowering seamless, real-time digital engagement.',
   openGraph: {
     type: 'website',
+    url: 'https://www.playgamesinteractive.com/',
+    site_name: 'Play Games Interactive',
+    locale: 'en_US',
     images: [
       {
-        url: 'https://gympal.com/icon.png',
-        height: 256,
+        url: 'https://www.playgamesinteractive.com/icon.png',
         width: 256,
-        alt: 'Gympal',
-        type: 'image/jpeg',
+        height: 256,
+        alt: 'Play Games Interactive Icon',
+        type: 'image/png',
       },
     ],
-    locale: 'en_IE',
-    url: 'https://www.gympal.com',
-    site_name: 'Gympal',
   },
   twitter: {
-    handle: '@gympalcom',
-    site: '@gympalcom',
+    handle: '@playgam_es',
+    site: '@playgamesinteractivecom',
     cardType: 'summary',
   },
-} as NextSeoProps;
+};
+
+export default SEO;

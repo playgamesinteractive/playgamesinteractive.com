@@ -32,8 +32,8 @@ function Meal() {
       <Link href={'/'}>
         <button className="flex items-center fixed top-4">
           <h1 className="text-sm font-semibold flex items-center">
-            <img src="/icon-cut.png" className="w-6" />
-            {/* <img src="/favicon/apple-touch-icon.png" className="w-10 h-10" />{' '} */}
+            <img src="/icon.png" className="w-6" />
+            {}
             Gympal
           </h1>
         </button>
